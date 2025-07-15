@@ -1,0 +1,23 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F1CA3A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5D76E;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-color="rgba(241, 202, 58, 0.3)"/>
+    </filter>
+  </defs>
+  
+  <!-- Shield Base -->
+  <path d="M20 2L4 8V20C4 28 8 34 20 36C32 34 36 28 36 20V8L20 2Z" fill="url(#shieldGradient)" filter="url(#shadow)"/>
+  
+  <!-- Inner Highlight -->
+  <path d="M20 4L6 9V20C6 26 9 30 20 32C31 30 34 26 34 20V9L20 4Z" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  
+  <!-- Checkmark -->
+  <path d="M14 20L18 24L26 16" stroke="#0B0B0B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Checkmark Highlight -->
+  <path d="M14 20L18 24L26 16" stroke="rgba(255,255,255,0.4)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg> 
