@@ -80,7 +80,7 @@ export default function SplineCanvas({ splineUrl, className, onLoaded }: SplineC
       if (appRef.current) {
         try {
           appRef.current.dispose();
-        } catch (e) {
+        } catch {
           // Silently handle disposal errors
         }
       }

@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { ChevronDownIcon, StarIcon, ShieldCheckIcon, EyeIcon } from '@heroicons/react/24/solid';
 import { CurrencyDollarIcon, ChartBarIcon, GlobeAltIcon } from '@heroicons/react/24/outline';
+import Link from 'next/link';
 // Video background - no additional imports needed
 
 export default function Home() {
@@ -235,9 +236,9 @@ export default function Home() {
                 <path d="M13 20L17 24L27 14" stroke="rgba(255, 255, 255, 0.6)" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
               </svg>
             </div>
-            <a href="/" className="mirage-logo-link cursor-pointer">
+            <Link href="/" className="mirage-logo-link cursor-pointer">
               <span className="text-2xl font-bold text-glow">AskMira</span>
-            </a>
+            </Link>
           </div>
           
           {/* Desktop Navigation */}
@@ -1222,8 +1223,8 @@ export default function Home() {
               Welcome to the Waitlist!
             </h2>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Thank you for your interest in AskMira! We've added you to our exclusive early access list. 
-              You'll be among the first to experience the future of verification.
+              Thank you for your interest in AskMira! We&apos;ve added you to our exclusive early access list. 
+              You&apos;ll be among the first to experience the future of verification.
             </p>
             
             {/* Golden Accent */}
