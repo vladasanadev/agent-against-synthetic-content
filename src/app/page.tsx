@@ -1,9 +1,8 @@
 'use client';
 
-import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { useState, useEffect } from 'react';
-import { ChevronDownIcon, StarIcon, CheckIcon, ShieldCheckIcon, EyeIcon, DocumentMagnifyingGlassIcon } from '@heroicons/react/24/solid';
-import { ArrowRightIcon, PlayIcon, CurrencyDollarIcon, ChartBarIcon, GlobeAltIcon, NewspaperIcon, UserGroupIcon, BanknotesIcon } from '@heroicons/react/24/outline';
+import { ChevronDownIcon, StarIcon, ShieldCheckIcon, EyeIcon } from '@heroicons/react/24/solid';
+import { CurrencyDollarIcon, ChartBarIcon, GlobeAltIcon } from '@heroicons/react/24/outline';
 // Video background - no additional imports needed
 
 export default function Home() {
