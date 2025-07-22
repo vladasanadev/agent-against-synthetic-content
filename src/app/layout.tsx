@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Rubik } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
 
 const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const rubik = Rubik({
   subsets: ["latin"],
   display: "swap",
 });
@@ -22,6 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${inter.className} antialiased`}
+        style={{ "--font-rubik": rubik.style.fontFamily } as React.CSSProperties}
       >
         <Providers>
           {children}
